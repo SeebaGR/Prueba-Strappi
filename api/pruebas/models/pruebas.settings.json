@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pruebas",
+  "info": {
+    "name": "Pruebas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tittle": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    }
+  }
+}
